@@ -77,7 +77,7 @@
         $mail->setLanguage('pt');
         $mail->CharSet = 'UTF-8';
         $mail->Encoding = 'base64';
-        $mail->setFrom('andrsoares954@gmail.com', 'Usuário');
+        $mail->setFrom('SEU EMAIL', 'Usuário');
         $mail->addAddress($message->__get('email'), 'Destinário');     // Add a recipient
         // $mail->addReplyTo('info@example.com', 'Information');
         // $mail->addCC('cc@example.com');
